@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: "NotoSerif-Italic";
+    src: url(../font/NotoSerif-Italic.ttf);
+  }
+  @font-face {
+    font-family: "NotoSerif-Regular";
+    src: url(../font/NotoSerif-Regular.ttf);
+  }
+}
+
+* {
+  animation: render 0.3s ease;
+}
+
+@keyframes render {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
